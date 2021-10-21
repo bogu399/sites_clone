@@ -1,0 +1,113 @@
+/* HEADER */
+.cabecalho-container{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eaeaea;
+    height: 2.7rem;
+}
+
+.instagram-logo {
+    height: 2rem;
+    margin-right: 50px;
+    margin-top: .4rem;
+}
+
+.cabecalho1 {
+    margin-left: 120px;
+}
+
+.cabecalho2 {
+    margin-left: 50px;
+}
+
+/* HEADER */
+
+
+
+
+
+/* MAIN */
+
+/* usuario */
+
+.usuario {
+    display: flex;
+    flex-direction: row;
+    height: 2rem;
+}
+
+.usuario img {
+    height: 2rem;
+    border-radius: 50%;
+    border-color: mintcream;
+}
+
+.reticencias {
+    margin-left: auto;
+}
+
+/* usuario */
+
+/* postagem */
+
+.postagem img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+/* postagem */
+
+/* barra-atividade */
+
+.barra-atividade {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    height: 3rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.curtir, .comentar, .compartilhar {
+    font-size: 1.7rem;
+    margin-left: 0.7rem;
+}
+
+/* barra-atividade */
+
+/* descricao */
+
+.descricao {
+    margin-top: 1rem;
+}
+
+.curtidas i {
+    font-size: 0.7rem;
+}
+
+.hashtags {
+    color: royalblue;
+}
+
+/* descricao */
+
+
+/* rodape */
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+}
+
+.rodape i {
+    font-size: 1.7rem;
+}
+
+/* rodape */

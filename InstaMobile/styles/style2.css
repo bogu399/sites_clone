@@ -1,0 +1,110 @@
+/* HEADER */
+.cabecalho-container{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: row;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #eaeaea;
+    height: 2.7rem;
+}
+
+.instagram-logo {
+    height: 2rem;
+    margin-right: 50px;
+    margin-top: .4rem;
+}
+
+.cabecalho1 {
+    margin-left: 40%;
+    margin-top: 1.5%;
+}
+
+.cabecalho2 {
+    margin-left: auto;
+    margin-right: 2%;
+    margin-top: 1.7%;
+}
+
+/* HEADER */
+
+/* ARTICLE */
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    display: inline-block;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    margin-right: 1.55rem;
+    cursor: pointer;
+    text-align: center;
+}
+
+.status-nome {
+    color: gray;
+}
+
+.numero {
+    font-weight: bold;
+}
+
+.perfil-foto img {
+    width: 6.7rem;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+.dados {
+    float: right;
+    margin-left: 50%;
+    width: 100%;
+}
+
+.profile-edit-btn {
+    background-color: #dadada;
+    font-size: 0.8rem;
+    line-height: 1.8;
+    border: 0.1rem solid #dadada;
+    border-radius: 0.3rem;
+    padding: 0 2.4rem;
+    margin-left: 2rem;
+    width: 80%;
+}
+
+.perfil-bio {
+    text-align: left;
+    font-size: small;
+}
+
+.link {
+    color: royalblue;
+}
+
+.menu1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.menu1 i {
+    font-size: 1.7rem;
+}
+
+.rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #eaeaea;
+}
+
+.rodape i {
+    font-size: 1.7rem;
+}
